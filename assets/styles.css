@@ -49,8 +49,8 @@ h2 { font-size: clamp(2.5rem, 5vw, 5.2rem); }
 .proof-strip strong { font-family: var(--serif); font-size: 2rem; font-weight: 400; }
 .proof-strip span { color: rgba(255,255,255,.65); font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; }
 
-.editorial-section { display: grid; grid-template-columns: .2fr 1.15fr .85fr; gap: clamp(24px, 5vw, 80px); padding: clamp(58px, 6vw, 90px) clamp(24px, 7vw, 110px) 28px; }
-.section-number { font-family: var(--serif); font-size: 1.5rem; color: var(--red); }
+.editorial-section { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(40px, 7vw, 110px); padding: clamp(58px, 6vw, 90px) clamp(24px, 7vw, 110px) 28px; }
+.section-heading h2 { max-width: 760px; }
 .section-copy { padding-top: 38px; max-width: 580px; }
 .section-copy p:first-child { margin-top: 0; }
 
@@ -121,8 +121,8 @@ footer a { text-underline-offset: 4px; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-copy { max-width: 800px; }
   .hero-visual { width: min(75vw, 500px); margin-top: 25px; }
-  .editorial-section { grid-template-columns: 50px 1fr; }
-  .section-copy { grid-column: 2; }
+  .editorial-section { grid-template-columns: 1fr; }
+  .section-copy { grid-column: 1; padding-top: 0; }
   .contents-section, .author-section, .faq-section, .buy-section { grid-template-columns: 1fr; }
   .map-card { width: min(75vw, 620px); justify-self: center; }
   .preview-heading { grid-template-columns: 1fr; align-items: start; }
@@ -149,7 +149,6 @@ footer a { text-underline-offset: 4px; }
   .proof-strip div { padding: 0 12px; border-right: 0; }
   .proof-strip div:nth-child(even) { border-left: 1px solid rgba(255,255,255,.2); }
   .editorial-section { grid-template-columns: 1fr; }
-  .section-number { display: none; }
   .section-copy { grid-column: 1; padding-top: 0; }
   .map-card { width: 100%; }
   .preview-gallery { grid-template-columns: 1fr; gap: 24px; }
