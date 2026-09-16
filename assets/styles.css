@@ -50,7 +50,9 @@ h2 { font-size: clamp(2.5rem, 5vw, 5.2rem); }
 .proof-strip span { color: rgba(255,255,255,.65); font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; }
 
 .editorial-section { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(40px, 7vw, 110px); padding: clamp(58px, 6vw, 90px) clamp(24px, 7vw, 110px) 28px; }
-.section-heading h2 { max-width: 760px; }
+.section-heading h2 { max-width: 650px; font-size: clamp(2.5rem, 4.25vw, 4.6rem); }
+.intro-image { width: min(100%, 680px); margin: 46px 0 0; transform: rotate(-2.5deg); transform-origin: center; box-shadow: 0 22px 45px rgba(27,23,24,.16); }
+.intro-image img { aspect-ratio: 1600 / 1170; object-fit: cover; }
 .section-copy { padding-top: 38px; max-width: 580px; }
 .section-copy p:first-child { margin-top: 0; }
 
@@ -122,6 +124,7 @@ footer a { text-underline-offset: 4px; }
   .hero-copy { max-width: 800px; }
   .hero-visual { width: min(75vw, 500px); margin-top: 25px; }
   .editorial-section { grid-template-columns: 1fr; }
+  .intro-image { width: min(92%, 680px); margin: 38px auto 8px; }
   .section-copy { grid-column: 1; padding-top: 0; }
   .contents-section, .author-section, .faq-section, .buy-section { grid-template-columns: 1fr; }
   .map-card { width: min(75vw, 620px); justify-self: center; }
